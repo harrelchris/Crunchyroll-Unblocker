@@ -21,7 +21,6 @@
     }],
 
     "permissions": [
-        "background",
         "cookies",
         "notifications",
         "storage",
