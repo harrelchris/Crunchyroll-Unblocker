@@ -1,10 +1,8 @@
 # Crunchyroll-Unblocker
 Bypass Crunchyroll locale restrictions on Firefox
 
+####This is a Firefox port of existing open source Chrome extension.
 
-Firefox port of existing open source Chrome extension.
-Go here to install:
-https://addons.mozilla.org/addon/crunchyroll-locale-unblocker/
+[Install here](https://addons.mozilla.org/addon/crunchyroll-locale-unblocker/)
 
-You can find the original here
-https://github.com/jerryteps/Crunchyroll-Unblocker
+[Original Chrome addon](https://github.com/jerryteps/Crunchyroll-Unblocker)
