@@ -9,6 +9,9 @@ function setCookie (tld) {
 		let sessionId = res.sessionId.slice(0, -1);
 		browser.cookies.remove({url: "http://crunchyroll" + tld + "/", name: "sess_id"});
 		browser.cookies.set({url: "http://.crunchyroll" + tld + "/", name: "sess_id", value: sessionId});
+	})
+	.catch((e) => {
+		browser.notification.create("", { type: "basic", title: "Crunchyroll Unblocker Error", message: `Crunchyroll Unblocker has encountered an error: ${e}`})
 	});
 }
 
